@@ -1,6 +1,9 @@
 package com.example.recyclerview
 
+import android.content.Context
+import android.graphics.drawable.Drawable
 import android.view.Gravity
+import androidx.core.content.ContextCompat
 
 data class PlanetData(
     val id : Int?,
@@ -9,7 +12,7 @@ data class PlanetData(
     val distance:String?,
     val gravity:String?,
     val overview:String?,
-
+    val planetImg: Int
 )
 
 val planetlist = listOf(PlanetData(
@@ -18,7 +21,8 @@ val planetlist = listOf(PlanetData(
     "Milkyway Galaxy",
     "149.6",
     "9.807",
-    "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the \"Red Planet\".\nThe latter refers to the effect of the iron oxide prevalent on Mars's surface, which gives it a reddish appearance distinctive among the astronomical bodies visible to the naked eye.\nMars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth."
+    "Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war and is often referred to as the \"Red Planet\".\nThe latter refers to the effect of the iron oxide prevalent on Mars's surface, which gives it a reddish appearance distinctive among the astronomical bodies visible to the naked eye.\nMars is a terrestrial planet with a thin atmosphere, with surface features reminiscent of the impact craters of the Moon and the valleys, deserts and polar ice caps of Earth.",
+    R.drawable.ic_earth
 ),
     PlanetData(
         2,
