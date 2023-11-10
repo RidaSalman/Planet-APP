@@ -43,7 +43,7 @@
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
                     android:fontFamily="@font/poppins_semibold"
-                    android:text="Earth"
+                    android:text="@string/earth"
                     android:textColor="@color/white"
                     android:textSize="23sp"
                     android:textStyle="bold" />
@@ -62,7 +62,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="-7dp"
                 android:fontFamily="@font/poppins"
-                android:text="Milkyway Galaxy"
+                android:text="@string/milkyway_galaxy"
                 android:textColor="@color/subtext"
                 android:textSize="12sp" />
 

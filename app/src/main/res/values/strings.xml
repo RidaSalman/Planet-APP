@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Recyclerview</string>
+    <string name="milkyway_galaxy">Milkyway Galaxy</string>
+    <string name="earth">Earth</string>
 </resources>
