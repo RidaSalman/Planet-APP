@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
@@ -20,8 +21,14 @@ class PlanetDetails : AppCompatActivity() {
         setContentView(R.layout.activity_planet_details)
 
         obj= intent.getParcelableExtra("planet")
-
         setData()
+
+        val buttonInfo = findViewById<TextView>(R.id.button_info)
+
+        buttonInfo.setOnClickListener{
+
+
+        }
 
     }
 
