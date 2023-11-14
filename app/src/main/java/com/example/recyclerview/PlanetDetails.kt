@@ -26,7 +26,9 @@ class PlanetDetails : AppCompatActivity() {
         val buttonInfo = findViewById<TextView>(R.id.button_info)
 
         buttonInfo.setOnClickListener{
-
+            val intent=Intent(this,FinalActivity::class.java)
+            intent.putExtra("planet", obj)
+            startActivity(intent)
 
         }
 
